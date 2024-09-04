@@ -14,5 +14,5 @@ def main(img_path):
     print("Generated Text:", generated_text)
 
 if __name__ == "__main__":
-    img_path = 'path_to_your_image.jpg'  # Replace with your image path
+    img_path = 'image\dog_bike_car.jpg'  # Replace with your image path
     main(img_path)

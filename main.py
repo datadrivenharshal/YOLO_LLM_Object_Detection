@@ -10,9 +10,10 @@ def main(img_path):
     print("Detected Objects:", objects)
 
     # Generate text based on detected objects
-    generated_text = generate_text(objects)
-    print("Generated Text:", generated_text)
+    #generated_text = generate_text(objects)
+    #print("Generated Text:", generated_text)
 
 if __name__ == "__main__":
-    img_path = 'image\dog_bike_car.jpg'  # Replace with your image path
+    img_path = r'image\dog_bike_car.jpg'  # Use a raw string for Windows paths
     main(img_path)
+

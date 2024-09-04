@@ -7,7 +7,7 @@ def generate_text(objects):
         'text-generation', 
         model='gpt2', 
         tokenizer='gpt2',
-        use_auth_token='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'  # Token for authentication
+        use_auth_token=''  # Token for authentication
     )
 
     # Prepare the prompt
